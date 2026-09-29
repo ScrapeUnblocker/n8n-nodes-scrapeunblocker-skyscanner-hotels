@@ -152,8 +152,7 @@ export class SkyscannerHotelsScraper implements INodeType {
 					maxValue: 300,
 				},
 				default: 30,
-				description:
-					'Maximum number of hotels to return, cheapest first (1-300). Results come in pages of about 35, so a smaller value can still return a full first page.',
+				description: 'Maximum number of hotels to return, cheapest first (1-300)',
 				displayOptions: {
 					show: {
 						resource: ['hotel'],
