@@ -61,7 +61,7 @@ Pick a **Resource** and an **Operation**. Each n8n input item starts one Apify r
 
 | Resource | Operation | Fields | Returns |
 |---|---|---|---|
-| **Hotel** | Search | **Destination** (required) - City or place to search hotels in, e.g. 'London' or 'Paris'<br>**Max Results** - Maximum number of hotels to return, cheapest first (1-300). Results come in pages of about 35, so a smaller value can still return a full first page | One item per hotel, cheapest first |
+| **Hotel** | Search | **Destination** (required) - City or place to search hotels in, e.g. 'London' or 'Paris'<br>**Max Results** - Maximum number of hotels to return, cheapest first (1-300) | One item per hotel, cheapest first |
 
 ### Options
 
@@ -101,11 +101,11 @@ Example item (shortened):
 ```json
 {
   "name": "Novotel London West",
-  "price": 104,
-  "priceFormatted": "€104",
+  "price": 111,
+  "priceFormatted": "€111",
   "currency": "EUR",
   "priceType": "per_night",
-  "priceTotal": 208,
+  "priceTotal": 222,
   "stars": 4,
   "rating": 4.1,
   "ratingDescription": "Very good",
@@ -186,3 +186,4 @@ Tested with n8n 2.40 (self-hosted).
 
 - 0.1.0: Initial release
 - 0.1.1: First release published from GitHub Actions with an npm provenance statement
+- 0.1.2: Max Results is exact (the Actor used to return a whole page of about 35)
