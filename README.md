@@ -55,7 +55,6 @@ The token starts with `apify_api_`. Treat it like a password: anyone who has it 
 
 Already have an **Apify API** credential in n8n (for example from the official Apify node)? This node uses the same credential type, so you can simply select it.
 
-
 ## Operations
 
 Pick a **Resource** and an **Operation**. Each n8n input item starts one Apify run. List fields accept several values separated by commas or new lines, or an array returned by an expression.
@@ -94,7 +93,6 @@ The node can be attached to an n8n **AI Agent** as a tool, so the agent can call
 ## Output
 
 - One item per hotel, cheapest first, with hotel ID, name and Skyscanner URL, price per night (number and formatted) and total price for the stay, currency, star rating, guest rating with its description and review count, area or distance from the centre, and an image.
-
 
 Fields of a returned item: `name`, `price`, `priceFormatted`, `currency`, `priceType`, `priceTotal`, `stars`, `rating`, `ratingDescription`, `reviews`, `distance`, `image`, `url`, `id`.
 
