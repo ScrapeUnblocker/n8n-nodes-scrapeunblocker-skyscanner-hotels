@@ -1,0 +1,31 @@
+{
+	"node": "n8n-nodes-scrapeunblocker-skyscanner-hotels.skyscannerHotelsScraper",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": [
+		"Data & Storage",
+		"Miscellaneous"
+	],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-skyscanner-hotels#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://github.com/ScrapeUnblocker/n8n-nodes-scrapeunblocker-skyscanner-hotels#readme"
+			}
+		]
+	},
+	"alias": [
+		"skyscanner",
+		"hotels",
+		"hotel prices",
+		"accommodation",
+		"travel",
+		"stays",
+		"apify",
+		"scrapeunblocker"
+	]
+}
